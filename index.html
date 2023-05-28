@@ -4,15 +4,19 @@
     <meta charset = "UTF-8">
     <title>Meu Portifólio Web</title>
     <link href="https: //fonts.googleapis.com/css2?family= Ubuntu +Mono & display=swap" rel="stylesheet">
+    <link href="https: //fonts.googleapis.com/css2?family= Roboto +Slab & display=swap" rel="stylesheet">
     <style> 
-    h1{
-      font-family: 'Ubuntu Mono', monoespaçado;
-      font-size: 5em;
-    }
+  
     body{
       background-color:rgb(31, 148, 115) ;
-      font-size: 25px;
+      font-size: 15px;
       color: white;
+      text-align: center;
+      font-family: 'Roboto Slab',serif;
+
+    }
+    h1{
+      font-family: 'Ubuntu Mono', monoespaçado;
     }
     strong{
       color: rgb(84, 84, 84);
@@ -20,24 +24,43 @@
     #trybe{
       color:greenyellow;
     }
+    .indice{ 
+      font-size:3em;
+
+    }
+    .nome{
+      font-size: 7em;
+    }
+    .conteudo{
+      font-size: 2em;
+    }
+
+    p{
+      font-size: 2em;
+    }
+
+    .habilidades{ 
+      font-size: 2em;
+    }
+
 
     </style>
   </head>
   <body> 
-    <h1>Mayra Ramos<br>Thaumaturgo</h1>
-    <h2>O que você verá por aqui</h2>
-    <ul>
+    <h1 class="nome">Mayra Ramos<br>Thaumaturgo</h1>
+    <h2 class="indice">O que você verá por aqui</h2>
+    <ul class="conteudo">
       <li><a href = "#T1">Apresentação</a></li>
       <li><a href = "#T2">Habilidades</a></li>
       <li><a href = "#T3">Blogs pessoais para contato</a></li>
     </ul>
 
     <img src = "/imagens/Mayra.jpg" alt = "Selfie da Mayra(autora)" width = "200px">
-    <h2 id = "T1">Apresentação</h2>
+    <h2 id = "T1" class="indice">Apresentação</h2>
     <p>Olá, me chamo Mayra Ramos Thaumaturgo e tenho 18 anos. <strong>Brasileira</strong>, nascida e criada na cidade de <strong>Manaus/Amazonas</strong>. Atualmente estudando Desenvolvimento Web na<strong id="trybe"> Trybe</strong> Escola de Programação Online.</p>
     <p>Portifólio criado com a finalidade de expor meus projetos e minha evolução ao longo do curso.</p>
-    <h2 id = "T2">Habilidades</h2>
-    <ul>
+    <h2 id = "T2"class="indice">Habilidades</h2>
+    <ul class="habilidades">
       <li>Colaboração</li>
       <li><strong>Empatia</strong></li>
       <li>Flexibilidade</li>

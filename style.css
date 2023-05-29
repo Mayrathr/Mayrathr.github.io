@@ -7,6 +7,9 @@ body{
 
 }
 
+.sobremim{
+padding: 30px;
+}
 
 .nome{
   text-align: center;
@@ -15,13 +18,14 @@ body{
 
 .foto1 {
 float:left;
+margin-right: 15px;
+
 }
 
 p{
-  left: 200px;
+  font-size: 2em;
   line-height:30px
-
-}
+  }
 
 strong{
   color: rgb(84, 84, 84);
@@ -44,10 +48,6 @@ strong{
   font-size: 2em;
 }
 
-
-p{
-  font-size: 2em;
-}
 
 .habilidades{ 
   font-size: 2em;

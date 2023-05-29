@@ -52,3 +52,6 @@ strong{
 .habilidades{ 
   font-size: 2em;
 }
+div:nth-child(odd)li{
+ text-decoration: underline ;
+}

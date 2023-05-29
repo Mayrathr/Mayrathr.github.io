@@ -1,0 +1,35 @@
+body{
+  background-color:rgb(31, 148, 115) ;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Slab',serif;
+
+}
+h1{
+  font-family: 'Ubuntu Mono', monoespaçado;
+}
+strong{
+  color: rgb(84, 84, 84);
+}
+#trybe{
+  color:greenyellow;
+}
+.indice{ 
+  font-size:3em;
+
+}
+.nome{
+  font-size: 7em;
+}
+.conteudo{
+  font-size: 2em;
+}
+
+p{
+  font-size: 2em;
+}
+
+.habilidades{ 
+  font-size: 2em;
+}

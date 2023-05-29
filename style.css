@@ -1,0 +1,57 @@
+body{
+  background-color:rgb(31, 148, 115) ;
+  font-size: 10px;
+  color: white;
+  text-align: left;
+  font-family: 'Roboto Slab',serif;
+
+}
+
+.sobremim{
+padding: 30px;
+}
+
+.nome{
+  text-align: center;
+  font-family: 'Ubuntu Mono', monoespaçado;
+}
+
+.foto1 {
+float:left;
+margin-right: 15px;
+
+}
+
+p{
+  font-size: 2em;
+  line-height:30px
+  }
+
+strong{
+  color: rgb(84, 84, 84);
+}
+
+#trybe{
+  color:greenyellow;
+}
+
+.indice{ 
+  font-size:3em;
+
+}
+
+.nome{
+  font-size: 7em;
+}
+
+.conteudo{
+  font-size: 2em;
+}
+
+
+.habilidades{ 
+  font-size: 2em;
+}
+div:nth-child(odd)li{
+ text-decoration: underline ;
+}
